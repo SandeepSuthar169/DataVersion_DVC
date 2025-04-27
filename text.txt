@@ -2,3 +2,10 @@
 2. Create Code.oy and add code to it. (it will save a csv file to a new "data" folder)
 3. Do a dit add, commit, push, before initializating DVC.
 4. pip install DVC.
+5. how i do "dvc" init (creates .dvcignore, .dvc)
+6. now do "mkdir s3" (creates a new s3 directory)
+7. now we do "dvc remore add - myremote s3"
+8. Next "dvc add data/"
+   now it will ask to do : ("git rm -r --cached 'data' and "git commit -m "stop tracking data")
+   before initializating i were tracking data/ folder git so now i remove it for DVC ot handl.
+9. Again i do "dvc add data/" (creates data.dvc) then "git add .gitinore data.dcv"   
