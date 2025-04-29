@@ -26,7 +26,7 @@ DataVersion_DVC/
 
 ## Getting Started
 Prerequisites
- - Python 3.x
+ - Python 3.13.1
  - Git
 - DVC
 ## Installation 
